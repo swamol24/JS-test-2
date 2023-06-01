@@ -1,0 +1,46 @@
+                                   JS Test 2
+Q1.
+ans:execute block of code multiple times,without writing it again and again.
+Q2.
+ans: 1.var can redeclare as well as re assign.var have a functional scope.
+     2.let can not redeclare but we acn re assign.let have a block scope.
+Q3.
+ans:javascript have 8 datatypes:
+    primitive datatypes:string,symbol,bigint,boolean,number,null and undefined .
+    special datatypes :object
+4.
+ans: function sum(...args){
+      let total =0;
+       for(const arg of args){
+        total += arg;
+}
+      return total;
+     }
+     console.log(sum(1,2,3));
+
+
+
+
+
+Q5.
+ans:getElemnetsByTagName();
+Q6.
+ans:to create new object
+   var obj = new Object();
+Q7.
+ans:let obj ={
+name:"swati"
+};
+let clone ={};
+for(let key in user){
+clone[key] =user[key];
+}
+clone.name = "shrau";
+alert(obj.name);
+
+Q8.
+ans: const obj ={
+     firstName:"James",
+     lastName:"Bond"
+};
+console.log(`my name is ${obj.lastname[key].${obj.firstName[key] ${obj.lastName[key]`);
